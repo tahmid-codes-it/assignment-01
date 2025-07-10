@@ -1,5 +1,6 @@
 body {
     margin-top: 0px;
+    background-color: #F5F8FF;
 }
 
 /* shared style */
@@ -169,4 +170,65 @@ nav button {
       color: #72737F;
     font-weight: 400;
     margin-top: 0px;
+}
+
+
+/* Feedback Section */
+
+.feedback-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 137px;
+
+}
+.feedback-section h2{
+    font-size: 42px;
+}
+
+.reviewer-info{
+    display: flex;
+}
+
+.card-one{
+    background-color: white;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.fa-rating i {
+  color: #facc15; /* Yellow */
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.card-one h3{
+    font-size: 24px;
+}
+
+.card-one p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
 }
