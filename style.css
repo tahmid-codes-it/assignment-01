@@ -163,7 +163,7 @@ nav button:hover {
     max-width: 1140px;
     background-color: #E5E7FF;
     margin: 0 auto;
-    padding: 50px 142px;
+    padding: 50px 0px;
     border-radius: 24px;
     margin-bottom: 137px;
     transition: scale 0.45s;
@@ -183,6 +183,8 @@ nav button:hover {
 .bottom {
     display: flex;
     justify-content: space-between;
+    gap: 158px;
+    margin: 0px 142px;
 }
 
 .bottom h1 {
@@ -272,7 +274,7 @@ nav button:hover {
     background-color: #FFFFFF;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 71px 312px;
+    padding: 71px 0px;
     border-radius: 14px;
     margin-bottom: 93px;
     transition: scale 0.45s;
