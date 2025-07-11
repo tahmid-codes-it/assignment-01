@@ -274,7 +274,7 @@ nav button {
     border: none;
     border-radius: 10px;
     color: #FFFFFF;
-    
+
 }
 
 .focus-button {
@@ -284,4 +284,127 @@ nav button {
 .focus-section div {
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* get in touch section */
+.get-in-touch {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 95px;
+    margin-bottom: 85px;
+}
+
+.get-in-touch h1 {
+    font-size: 97px;
+    font-weight: bold;
+    /* margin-right: 30px; */
+}
+
+
+.right-section {}
+
+.email-section {
+    height: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 20px 0px 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 51px;
+    border: none;
+}
+
+.name-section {
+    height: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 20px 0px 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 51px;
+    border: none;
+}
+
+.msg-section {
+    height: 135px;
+    width: 497px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 20px 0px 85px 32px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border: none;
+}
+
+.get-in-touch-button {
+    font-size: 16px;
+    font-weight: 500;
+    /* height: 62px;
+    width: 497px; */
+    padding: 20px 220px 20px 220px;
+    text-decoration: none;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.get-in-touch-div {
+    text-align: center;
+}
+
+
+/* footer styles */
+
+footer{
+    background-color: #FFFFFF;
+    /* background-size: cover; */
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+.max-width{
+    max-width: 531px;
+    margin: 0 auto;
+    padding: 104px 455px;
+}
+.footer-heading{
+    color: #4E47FF;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+footer p{
+    font-size: 16px;
+    color: #8987A1;
+    text-align: center;
+    margin-top: 8px;
+}
+
+footer ul{
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    gap: 48px;
+    margin-left: 45px;
+    
+    
+}
+
+footer ul a{
+text-decoration: none;  
+color: #8987A1;
 }
