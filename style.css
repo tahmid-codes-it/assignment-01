@@ -50,7 +50,14 @@ nav button {
     border: none;
     border-radius: 10px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.7s, scale 0.7s;
 
+}
+
+nav button:hover {
+    opacity: 0.8;
+    scale: 1.09;
 }
 
 /* banner styles */
@@ -78,7 +85,14 @@ nav button {
     border-radius: 10px;
     color: #FFFFFF;
     margin-bottom: 152px;
+    cursor: pointer;
+    transition: opacity 0.7s, scale 0.7s;
 
+}
+
+.banner button:hover {
+    opacity: 0.8;
+    scale: 1.09;
 }
 
 .banner-button {
@@ -114,6 +128,13 @@ nav button {
     border: none;
     border-radius: 10px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.7s, scale 0.7s;
+}
+
+.action-button:hover {
+    opacity: 0.8;
+    scale: 1.09;
 }
 
 .action-heading {
@@ -145,7 +166,12 @@ nav button {
     padding: 50px 142px;
     border-radius: 24px;
     margin-bottom: 137px;
+    transition: scale 0.45s;
 }
+.user-section:hover{
+    scale: 1.12;
+}
+
 
 .user-section h2 {
     font-size: 38px;
@@ -195,8 +221,13 @@ nav button {
     background-color: white;
     padding: 24px;
     border-radius: 14px;
+    cursor: pointer;
+    transition: scale 0.45s;
 }
 
+.card-one:hover{
+    scale: 1.2;
+}
 .fa-rating i {
     color: #facc15;
     /* Yellow */
@@ -244,8 +275,10 @@ nav button {
     padding: 71px 312px;
     border-radius: 14px;
     margin-bottom: 93px;
-
-
+    transition: scale 0.45s;
+}
+.focus-section:hover{
+    scale: 1.12;
 }
 
 .focus-heading {
@@ -274,7 +307,14 @@ nav button {
     border: none;
     border-radius: 10px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.7s, scale 0.7s;
 
+}
+
+.focus-section button:hover {
+    opacity: 0.8;
+    scale: 1.09;
 }
 
 .focus-button {
@@ -356,6 +396,13 @@ nav button {
     border: none;
     border-radius: 10px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.7s, scale 0.7s;
+}
+
+.get-in-touch-button:hover {
+    opacity: 0.8;
+    scale: 1.09;
 }
 
 .get-in-touch-div {
@@ -365,20 +412,22 @@ nav button {
 
 /* footer styles */
 
-footer{
+footer {
     background-color: #FFFFFF;
     /* background-size: cover; */
     margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
 }
-.max-width{
+
+.max-width {
     max-width: 531px;
     margin: 0 auto;
     padding: 104px 455px;
 }
-.footer-heading{
+
+.footer-heading {
     color: #4E47FF;
     font-size: 100px;
     text-align: center;
@@ -387,24 +436,24 @@ footer{
     margin-top: 0px;
 }
 
-footer p{
+footer p {
     font-size: 16px;
     color: #8987A1;
     text-align: center;
     margin-top: 8px;
 }
 
-footer ul{
+footer ul {
     display: flex;
     font-size: 16px;
     list-style: none;
     gap: 48px;
     margin-left: 45px;
-    
-    
+
+
 }
 
-footer ul a{
-text-decoration: none;  
-color: #8987A1;
+footer ul a {
+    text-decoration: none;
+    color: #8987A1;
 }
