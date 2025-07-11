@@ -116,7 +116,7 @@ nav button:hover {
 
 .div-left {
     align-items: center;
-    margin: 62px;
+    margin: 62px 0px;
 }
 
 .action-button {
@@ -147,7 +147,7 @@ nav button:hover {
 
 .action-subtitle {
     font-size: 24px;
-    color: #252432;
+    color: #8C8E98;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 23px;
@@ -348,7 +348,7 @@ nav button:hover {
 .email-section {
     height: 70px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 500px;
@@ -361,7 +361,7 @@ nav button:hover {
 .name-section {
     height: 70px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 500px;
@@ -375,7 +375,7 @@ nav button:hover {
     height: 135px;
     width: 497px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 500px;
